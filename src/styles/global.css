@@ -289,6 +289,7 @@ ul {
   padding-top: var(--header-height);
   position: relative;
   overflow: hidden;
+  justify-content: center;
 }
 
 .hero__bg {
@@ -310,12 +311,12 @@ ul {
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0.92) 50%,
     rgba(255, 255, 255, 0.7) 100%
-  );
+  ); */
   z-index: 1;
 }
 
